@@ -9,7 +9,7 @@ const translate = new Translate({
     credentials: CREDENTIALS,
     projectId: CREDENTIALS.project_id
 });
-
+//Code for detecting language
 const detectLanguage = async (text) => {
 
     try {
@@ -28,7 +28,7 @@ const detectLanguage = async (text) => {
 //     .catch((err) => {
 //         console.log(error);
 //     });
-
+//CODE for language translation
 const translateText = async (text, targetLanguage) => {
 
     try {
